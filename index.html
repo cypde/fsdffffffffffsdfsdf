@@ -34,11 +34,13 @@
 				</el-header>
 				<el-main>
 					</br></br></br></br>
-					<el-button type="primary" @click='gotoa'>满血版</el-button>
+					<el-button type="primary" @click='gotoa'>原始版</el-button>
 					</br></br>
 					<el-button type="success" @click='gotob'>正常版</el-button>
 					</br></br>
-					<el-button type="info" @click='gotoc'>测试分数版</el-button>
+					<el-button type="success" @click='gotoc'>魔改版</el-button>
+					</br></br>
+					<el-button type="info" @click='gotod'>测试分数版</el-button>
 				</el-main>
 				<el-footer>
 <!-- 					<div class="demo-image__preview">
@@ -77,6 +79,9 @@
 						window.open("http://www.vsbm.top/b.html")
 					},
 					gotoc() {
+						window.open("http://www.vsbm.top/c.html")
+					},
+					gotod() {
 						window.open("http://gpu.jy6d.com/")
 					}
 				},
